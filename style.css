@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    display: block;
+    background-color: transparent;
+    margin: 0 auto;
+}
+
+body{
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    
+}
+
+/*---------------navigation------------------*/
+
+nav{
+    width: 100%;
+    height: 60px;
+}
+
+ul{
+    margin: auto;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    float: left;
+    line-height: 60px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(65, 65, 65);
+    padding: 0px 20px;
+}
+
+ul li :hover{
+    text-decoration: underline;
+}
+
+.menu-left{
+    float: left;
+    width: 50%;
+}
+
+.menu-right{
+    position: relative;
+    float: right;
+
+}
+
+.apps{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    padding: 18px 25px;
+    color: gray;
+}
+
+.sign-in button{
+    float: right;
+    color: white;
+    background-color: rgb(76, 139, 245);
+    width: 80px;
+    height: 40px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.sign-in :hover{
+    box-shadow: 1px 1px 10px -5px rgb(85, 85, 85);
+    border: none;
+}
+
+/*---------------body portion------------------*/
+
+.logo-placement{
+    position: absolute;
+    display: block;
+    transform: translateY(200px);
+    margin-left: 470px;
+}
+
+.logo{
+    width: 272px;
+    height: 92px;
+}
+
+
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.search{
+    width: 10px;
+    height: 10px;
+    transform: translateX(-450px);
+}
+
+.mic{
+    width: 10px;
+    height: 15px;
+    transform: translateX(-50px);
+}
+
+.input{
+    width: 350px;
+    height: 40px;
+    padding-inline-start: 4em;
+    padding-inline-end: 4em;
+    font-size: 14px;
+    font-weight: 430;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 50px;
+    outline: none;
+}
+
+.input:hover{
+    box-shadow: 1px 1px 10px -5px rgb(85, 85, 85);
+    border: none;
+}
+
+.lower-wrapper{
+    text-align: center;
+    transform: translateY(40px);
+    padding-right: 10px;
+}
+
+.google-search button{
+    color: rgb(90, 90, 90);
+    background-color: rgb(245, 245, 245);
+    width: 130px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+}
+
+.feeling-lucky button{
+    color: rgb(90, 90, 90);
+    background-color: rgb(245, 245, 245);
+    width: 135px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+}
